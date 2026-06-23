@@ -1,8 +1,8 @@
 // lib/artigos.ts
 import slugify from 'slugify';
 
-// ── Substitua SEU_TOKEN_AQUI pelo token gerado em https://crudcrud.com ──
-const BASE_URL = 'https://crudcrud.com/api/SEU_TOKEN_AQUI/artigos';
+// ── SUBISTITUIR COD ──
+const BASE_URL = 'https://crudcrud.com/api/a8b444fc100841c4b091b094e7246788/artigos';
 
 export interface Artigo {
   _id?: string;
