@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "titulo": "Como o Design Responsivo Transforma a Experiência do Usuário",
+    "autor": "Marina Souza",
+    "data": "2025-03-12",
+    "resumo": "Entenda por que adaptar layouts a diferentes telas deixou de ser opcional e se tornou padrão de mercado.",
+    "conteudo": "O design responsivo deixou de ser um diferencial e passou a ser uma exigência básica de qualquer projeto web. Com o crescimento do acesso via dispositivos móveis, garantir que um site se adapte a diferentes resoluções impacta diretamente na retenção de usuários e nas taxas de conversão.\n\nAlém de unidades relativas como rem, em e vw, técnicas como Flexbox e CSS Grid permitem criar estruturas flexíveis sem a necessidade de múltiplas versões de um mesmo layout. Combinado a media queries bem planejadas, é possível oferecer uma experiência consistente em qualquer aparelho.\n\nMais do que estética, responsividade também é acessibilidade: usuários com diferentes necessidades visuais e motoras se beneficiam de interfaces que se reorganizam de forma previsível e legível."
+  },
+  {
+    "id": 2,
+    "titulo": "Server Components no Next.js: O Que Muda na Prática",
+    "autor": "Rafael Lima",
+    "data": "2025-05-02",
+    "resumo": "Uma visão prática sobre como os Server Components alteram a forma de buscar dados e renderizar páginas.",
+    "conteudo": "Com a introdução do App Router, o Next.js passou a tratar Server Components como o padrão para a maioria das páginas. Isso significa que a busca de dados pode acontecer diretamente dentro do componente, sem a necessidade de hooks como useEffect ou bibliotecas de data fetching no lado do cliente.\n\nEssa mudança traz ganhos significativos de performance, já que o HTML já chega pronto ao navegador, reduzindo o tempo até a primeira renderização visível. Também simplifica o código, eliminando estados de carregamento manuais em diversos cenários.\n\nPor outro lado, é importante entender quando usar Client Components — geralmente em casos que envolvem interatividade, estado local ou eventos do navegador."
+  },
+  {
+    "id": 3,
+    "titulo": "SEO Técnico em Aplicações Modernas: Por Onde Começar",
+    "autor": "Camila Andrade",
+    "data": "2025-06-18",
+    "resumo": "Boas práticas de SEO técnico que toda aplicação construída com frameworks modernos deveria seguir.",
+    "conteudo": "SEO técnico vai muito além de palavras-chave. Em aplicações construídas com frameworks como Next.js, fatores como tempo de carregamento, renderização no servidor e metadados corretos influenciam diretamente o posicionamento nos motores de busca.\n\nDefinir title e description únicos para cada página é um dos passos mais básicos e, ainda assim, frequentemente esquecido. Funções como generateMetadata permitem que esses valores sejam gerados dinamicamente a partir dos próprios dados da página, garantindo que cada artigo, produto ou rota tenha uma identidade única para os buscadores.\n\nAlém disso, gerar páginas estáticas sempre que possível (SSG) tende a favorecer tanto a performance quanto a indexação, já que o conteúdo está disponível imediatamente, sem depender de processamento adicional no momento da requisição."
+  }
+]
