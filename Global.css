@@ -1,0 +1,97 @@
+/* app/globals.css */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --c-bg:     #fafafa;
+  --c-text:   #1a1a2e;
+  --c-muted:  #6b6b80;
+  --c-accent: #4f46e5;
+  --c-border: #e5e5ef;
+  --radius:   0.75rem;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--c-bg);
+  color: var(--c-text);
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.pagina {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.pagina__header { margin-bottom: 2.5rem; }
+
+.pagina__header h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+
+.pagina__header p { color: var(--c-muted); }
+
+/* lista de artigos */
+.lista-artigos {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.artigo-card {
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius);
+  background: #fff;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.artigo-card:hover {
+  border-color: var(--c-accent);
+  transform: translateY(-2px);
+}
+
+.artigo-card__link { display: block; padding: 1.5rem; }
+
+.artigo-card__titulo { font-size: 1.2rem; margin-bottom: 0.5rem; }
+
+.artigo-card__resumo { color: var(--c-muted); font-size: 0.92rem; margin-bottom: 0.75rem; }
+
+.artigo-card__meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--c-muted);
+}
+
+/* página de artigo */
+.voltar-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 0.9rem;
+  color: var(--c-accent);
+}
+
+.artigo__header { margin-bottom: 2rem; }
+
+.artigo__header h1 { font-size: 1.85rem; margin-bottom: 0.6rem; }
+
+.artigo__meta {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--c-muted);
+}
+
+.artigo__corpo { display: flex; flex-direction: column; gap: 1.1rem; }
+
+.artigo__corpo p { font-size: 1rem; }
+
+/* 404 */
+.pagina--404 {
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.pagina--404 h1 { font-size: 3rem; color: var(--c-accent); }
+
+.pagina--404 p { color: var(--c-muted); margin: 0.5rem 0 1.5rem; }
